@@ -16,5 +16,4 @@ venv.bak/
 modelTrainerEnv/
 
 # model and dataset
-model/
 gender_dataset_face/
