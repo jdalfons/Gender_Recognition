@@ -36,6 +36,10 @@ To train the model just run with python 3.6 and the environment created the file
 To download the dataset you can see follow URL.
 https://storage.googleapis.com/pretrained-model-gender/gender_dataset_face.rar
 
+The VGG perfonrmance will be ploting and the image is one like this.
+
+ ![:blurdata:](https://github.com/halcolo/gender_recognition/blob/master/img/graf.png?raw=true ":blurdata:")
+
 ### Recognition
 
 To run the recognition ensure the model is in the folder 'model' and run __detection.py__ and comment the variable 'model_path', if you haven't the model the app download a model automatically.

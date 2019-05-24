@@ -20,12 +20,12 @@ class Training:
         self.CATEGORIES = CATEGORIES
         self.DATASET = DATASET
         self.DATADIR = DATADIR
-        # Constants
+        # Constant to render the images
         self.epochs = 100
-        self.learn_rate = 1e-3
+        self.lr = 1e-3
         self.batch_size = 64
         self.img_dims = (96, 96, 3)
-        self.plotName = "./img/plot_graf.png"
+        self.plotName = "./img/graf.png"
         self.model = "./training/gender_detection.model"
 
     def create_training_data(self):
@@ -86,8 +86,7 @@ class Training:
                              classes=2)
 
         # compile the model
-        opt = Adam(learn_rate=self.learn_rate,
-                   decay=self.learn_rate/self.epochs)
+        opt = Adam(lr=self.lr, decay=self.lr/self.epochs)
         model.compile(loss="binary_crossentropy",
                       optimizer=opt,
                       metrics=["accuracy"])

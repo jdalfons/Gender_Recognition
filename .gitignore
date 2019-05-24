@@ -17,3 +17,4 @@ modelTrainerEnv/
 
 # model and dataset
 gender_dataset_face/
+training/gender_detection.model
