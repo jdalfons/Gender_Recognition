@@ -47,7 +47,7 @@ To run the recognition ensure the model is in the folder 'model' and run __detec
 
 | Aplication| Version|
 | ------ | ------ |
-| Python| `Python 3.6` |
+| Python| `Python 3.9.10` |
 | OpenCV| `4.1.0` |
 | numpy | `1.16.3` |
 | tensorflow | `1.13`  |
